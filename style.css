@@ -12,20 +12,21 @@ nav a {
 }
 img {
   display: block;
+  margin: 0 auto;
 }
-section#featured-property {
+section#featured-property p, section#featured-property figcaption {
   text-align: center;
   width: 800px;
   margin: 0 auto;
 }
 section#details {
   margin: 0;
+  display: block;
 }
 div {
+  float:left;
   display: inline-block;;
   background: red;
   text-align: center;
   width: 25%;
-  margin: 0;
-  padding: 0;
 }
